@@ -10,7 +10,6 @@ import { app } from './app';
 | Learn more here: www.jovo.tech/docs/server
 |
 */
-
 const port = process.env.JOVO_PORT || 3000;
 
 (async () => {

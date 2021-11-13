@@ -6,7 +6,7 @@ const { TestSuite, InputType } = require('@jovotech/framework');
 |--------------------------------------------------------------------------
 |
 | Run `npm test` to execute this sample test.
-| Learn more here: v4.jovo.tech/docs/unit-testing
+| Learn more here: www.jovo.tech/docs/unit-testing
 |
 */
 
