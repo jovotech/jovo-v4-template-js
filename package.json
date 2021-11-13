@@ -30,6 +30,7 @@
     "@babel/core": "^7.14.6",
     "@babel/plugin-proposal-decorators": "^7.14.5",
     "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/eslint-parser": "^7.16.3",
     "@babel/preset-env": "^7.14.7",
     "@babel/register": "^7.14.5",
     "@babel/runtime": "^7.14.6",
@@ -37,7 +38,7 @@
     "babel-jest": "^27.0.6",
     "bestzip": "^2.2.0",
     "esbuild": "^0.13.13",
-    "eslint": "^7.17.0",
+    "eslint": "^7.32.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "jest": "^26.6.3",
@@ -52,6 +53,5 @@
   "bugs": {
     "url": "https://github.com/jovotech/jovo-framework"
   },
-  "homepage": "https://github.com/jovotech/jovo-framework#readme",
-  "prettier": "../../../.prettierrc.js"
+  "homepage": "https://github.com/jovotech/jovo-framework#readme"
 }
