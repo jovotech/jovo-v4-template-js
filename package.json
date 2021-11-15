@@ -6,14 +6,12 @@
     "build": "babel src --out-dir dist",
     "start": "node dist/app.dev.js --jovo-webhook",
     "start:dev": "nodemon --watch src --exec \"babel src --out-dir dist && node dist/app.dev.js --jovo-webhook\"",
-    "bundle:dev": "npm run bundle -- \"dist/app.dev.js\"",
-    "bundle:prod": "npm run bundle -- \"dist/app.prod.js\"",
+    "bundle:dev": "npm run bundle -- dist/app.dev.js",
     "prebundle": "rimraf bundle && babel src --out-dir dist",
     "bundle": "esbuild --bundle --outfile=bundle/index.js --sourcemap --minify --keep-names --platform=node --target=node14 --format=cjs  --external:aws-sdk --external:@oclif/* --external:@jovotech/cli*",
     "postbundle": "cd bundle && bestzip ../bundle.zip * && cd ..",
     "eslint": "eslint src test --fix",
-    "test": "jest -c jest.config.js",
-    "start:prod": "tsc-watch --onSuccess \"node src\\app.prod.js --jovo-webhook\""
+    "test": "jest -c jest.config.js"
   },
   "author": "jovotech",
   "license": "Apache-2.0",
