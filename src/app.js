@@ -33,7 +33,9 @@ const app = new App({
   | Learn more here: www.jovo.tech/docs/plugins, www.jovo.tech/marketplace
   |
   */
-  plugins: [],
+  plugins: [
+    // Add Jovo plugins here
+  ],
 
   /*
   |--------------------------------------------------------------------------
